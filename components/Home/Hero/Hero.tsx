@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import JobSearchBar from './JobSearchBar'
 import Image from 'next/image'
