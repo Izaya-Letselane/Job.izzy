@@ -5,28 +5,28 @@ const jobs = [{
     id: 1,
     image: '/images/j1.png',
     title: 'Software Engineer',
-    Location: "london, UK",
+    Location: "Pretoria, SA",
     jobType: "full-Time",
     urgency: "Urgent"
 },{
     id: 2,
     image: '/images/j2.png',
     title: 'Recruiting Coordinator',
-    Location: "Manchester, UK",
+    Location: "Durban, SA",
     jobType: "full-Time",
     urgency: "Private"
 },{
     id: 3,
     image: '/images/j3.png',
     title: 'Product Manager Audio',
-    Location: "london, UK",
+    Location: "Pretoria, SA",
     jobType: "full-Time",
     urgency: "Urgent"
 },{
     id: 4,
     image: '/images/j4.png',
     title: 'Senior Product Designer',
-    Location: "london, UK",
+    Location: "Cape Town, SA",
     jobType: "Part-time",
     urgency: "private"
 },
@@ -34,7 +34,7 @@ const jobs = [{
     id: 5,
     image: '/images/j5.png',
     title: 'Product Manager, Risk',
-    Location: "london, UK",
+    Location: "Centurion, SA",
     jobType: "full-Time",
     urgency: "Urgent"
 },
@@ -58,7 +58,7 @@ const jobs = [{
     id: 8,
     image: '/images/j8.png',
     title: 'Senior Product Manager',
-    Location: "london, UK",
+    Location: "Parklands, SA",
     jobType: "full-Time",
     urgency: "Private"
 },
@@ -66,7 +66,7 @@ const jobs = [{
     id: 9,
     image: '/images/j9.png',
     title: 'Senior BI Designer',
-    Location: "london, UK",
+    Location: "Pretoria, SA",
     jobType: "full-Time",
     urgency: "Private"
 },
