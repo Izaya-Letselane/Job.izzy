@@ -22,7 +22,7 @@ const Hero = () => {
                </div>
             </div>
             {/*image content */}
-            <div data-aos="fade-left" data-aos-delay="150" className='mx-auto hidden xl:block'>
+            <div data-aos="fade-left" data-aos-delay="150" className='mx-auto'>
                 <Image src="/images/Hero.png" alt='hero' width={900} height={900}/>
             </div>
         </div>
