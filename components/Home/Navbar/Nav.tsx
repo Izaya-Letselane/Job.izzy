@@ -49,7 +49,7 @@ const Nav = ({openNav}:Props) => {
             <div className="flex items-center space-x-4">
                 {/* Login/ Register Buttons*/}
                 <button className='px-8 py-2.5 text-xs sm:text-sm rounded-lg cursor-pointer bg-gray-100 hover:bg-gray-300 dark:bg-gray-700
-                 dark:hover:bg-gray-900 transition-all duration-300'>Loging/Register</button>
+                 dark:hover:bg-gray-900 transition-all duration-300'>Login/Register</button>
                 {/* Job Post Button*/}
                 <button className='px-8 py-2.5 text-sm hidden sm:block cursor-pointer rounded-lg bg-cyan-700 hover:bg-cyan-900 transition-all duration-300 text-white'>Job Post</button>
                 {/*Theme toggler */}
