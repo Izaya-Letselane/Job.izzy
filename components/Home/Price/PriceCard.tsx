@@ -19,7 +19,7 @@ const PriceCard = ({type, price}: Props) => {
     <h1 className="mt-6 text-xl font-bold text-blue-900 dark:text-blue-200">{type}</h1>
     {/*Price*/}
     <div className="mt-3">
-        <span className="text-4xl font-bold text-blue-950 dark:text-white">${price}</span>{" "}
+        <span className="text-4xl font-bold text-blue-950 dark:text-white">R{price}</span>{" "}
         /Monthly
     </div>
     {/*Feature List*/}
