@@ -1,33 +1,207 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job — Job Site Landing Page
 
-## Getting Started
+A modern, responsive job-site landing page built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. The project focuses on a clean user experience with interactive animations, responsive layouts, theme support, and reusable UI components.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+* **Next.js 15.5.3** — React framework for the application
+* **React 19.1.0** — UI library
+* **TypeScript 5** — Static typing and safer development
+* **Tailwind CSS 4** — Utility-first styling
+* **AOS** — Scroll-based animations
+* **Next Themes** — Light/dark theme support
+* **React Icons** — Icon library
+* **React Multi Carousel** — Responsive carousel components
+* **React Parallax Tilt** — Interactive tilt effects
+
+## 📦 Installation
+
+Clone the repository and install the dependencies:
+
+```bash
+git clone <repository-url>
+cd job
+npm install
+```
+
+## 🛠️ Available Scripts
+
+### Development
+
+Start the development server with Turbopack:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+https://job-izzy.onrender.com
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Production Build
 
-## Learn More
+Create an optimized production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Production Server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run the production build:
+
+```bash
+npm run start
+```
+
+### Lint
+
+Run ESLint to check the project for code-quality issues:
+
+```bash
+npm run lint
+```
+
+## 📁 Project Structure
+
+A typical project structure looks like:
+
+```text
+job/
+├── public/             # Static assets
+├── src/
+│   ├── app/            # Next.js App Router pages and layouts
+│   ├── components/     # Reusable UI components
+│   └── ...
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
+```
+
+> The exact structure may vary depending on how additional components and pages are organized.
+
+## ✨ Features
+
+* Responsive job-site landing page
+* Modern and clean UI
+* Type-safe development with TypeScript
+* Responsive layouts with Tailwind CSS
+* Light and dark theme support
+* Scroll animations using AOS
+* Interactive tilt effects
+* Responsive carousels
+* Icon-based UI elements
+* Optimized Next.js application
+* ESLint integration for code quality
+
+## 🎨 Styling
+
+The project uses **Tailwind CSS 4** for styling. Utility classes are used throughout the application to create responsive layouts and maintain consistent spacing, colors, typography, and components.
+
+## 🌓 Theme Support
+
+Theme management is handled using `next-themes`, allowing the application to support light and dark modes.
+
+Theme behavior can be customized according to the requirements of the application.
+
+## 🎞️ Animations & Interactions
+
+### AOS
+
+[AOS](https://michalsnik.github.io/aos/) is used to provide scroll-triggered animations.
+
+### React Parallax Tilt
+
+`react-parallax-tilt` provides interactive hover and tilt effects for selected UI elements.
+
+### React Multi Carousel
+
+`react-multi-carousel` is used for responsive carousel and slider sections.
+
+## 📱 Responsive Design
+
+The landing page is designed to work across different screen sizes, including:
+
+* Mobile devices
+* Tablets
+* Laptops
+* Desktop displays
+
+Tailwind CSS responsive utilities are used to adapt the layout to different viewport sizes.
+
+## 🔧 Environment Variables
+
+If the project requires environment variables, create a `.env.local` file in the project root:
+
+```env
+NEXT_PUBLIC_API_URL=your_api_url
+```
+
+Do not commit `.env.local` or other files containing private credentials to version control.
+
+## 🧹 Code Quality
+
+Before committing changes, run:
+
+```bash
+npm run lint
+npm run build
+```
+
+This helps ensure that the code passes ESLint checks and that the application can be successfully built.
+
+## 📌 Dependencies
+
+### Production Dependencies
+
+```text
+aos
+next
+next-themes
+react
+react-dom
+react-icons
+react-multi-carousel
+react-parallax-tilt
+```
+
+### Development Dependencies
+
+```text
+@eslint/eslintrc
+@tailwindcss/postcss
+@types/aos
+@types/node
+@types/react
+@types/react-dom
+eslint
+eslint-config-next
+tailwindcss
+typescript
+```
+
+## 🚀 Deployment
+
+The project can be deployed to any platform that supports Next.js applications.
+
+For a production deployment:
+
+```bash
+npm run build
+npm run start
+```
+
+Make sure any required environment variables are configured on the deployment platform.
+
+## 📄 License
+
+This project is private and intended for its designated use. Add an appropriate open-source license here if the project is later made publicly available.
 
 ## Deploy on Vercel
 
