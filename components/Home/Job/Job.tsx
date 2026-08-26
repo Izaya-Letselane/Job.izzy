@@ -42,7 +42,7 @@ const jobs = [{
     id: 6,
     image: '/images/j6.png',
     title: 'Technical Architect',
-    Location: "london, UK",
+    Location: "Polokwane, SA",
     jobType: "Contract",
     urgency: "Private"
 },
@@ -50,7 +50,7 @@ const jobs = [{
     id: 7,
     image: '/images/j7.png',
     title: 'Web Developer',
-    Location: "london, UK",
+    Location: "Midrand, SA",
     jobType: "full-Time",
     urgency: "Urgent"
 },
